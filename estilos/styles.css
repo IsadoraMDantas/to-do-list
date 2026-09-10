@@ -1,12 +1,40 @@
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.todo-list {
+  background: lightgray;
+  margin: 20px;
+  border-radius: 10px
+  
+}
+
+li {
+  padding: 10px;
+}
+
+label {
+  font-family: Roboto, sans-serif;
+  font-size: 15px
+}
+
 a {
   text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 a:link {
   color: blue;
 }
 
 a:visited {
-  color: red;
+  color: purple;
 }
 
 a:hover {
@@ -15,10 +43,10 @@ a:hover {
 }
 
 a:focus {
-  color: orange;
+  outline: 2px solid orange;
 }
 
-a:clicked {
+a:active {
   color: yellow;
 
 }
